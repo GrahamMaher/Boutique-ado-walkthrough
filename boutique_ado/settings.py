@@ -30,7 +30,7 @@ ALLOWED_HOSTS = ['8000-grahammaher-boutiqueado-p1gdbwh215n.ws-eu118.gitpod.io']
 
 # Add CSRF trusted origins
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-grahammaher-boutiqueado-p1gdbwh215n.ws-eu117.gitpod.io',
+    'https://8000-grahammaher-boutiqueado-p1gdbwh215n.ws-eu118.gitpod.io',
 ]
 
 
@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'home',
+    'products',
 ]
 
 MIDDLEWARE = [
