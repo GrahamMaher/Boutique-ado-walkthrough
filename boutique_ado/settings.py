@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-vz6im_^e9hh)bz8$n%kjspu4wky#v+ps6=8imau-3lq7i31!+v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-grahammaher-boutiqueado-p1gdbwh215n.ws-eu117.gitpod.io']
+ALLOWED_HOSTS = ['8000-grahammaher-boutiqueado-p1gdbwh215n.ws-eu118.gitpod.io']
 
 # Add CSRF trusted origins
 CSRF_TRUSTED_ORIGINS = [
@@ -152,6 +152,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
